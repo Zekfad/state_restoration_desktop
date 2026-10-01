@@ -1,0 +1,27 @@
+name: state_restoration_desktop
+description: >-
+  Simple state restoration support for desktop platforms.
+version: 0.1.0
+homepage: https://github.com/Zekfad/state_restoration_desktop
+repository: https://github.com/Zekfad/state_restoration_desktop
+issue_tracker: https://github.com/Zekfad/state_restoration_desktop/issues
+# documentation: https://pub.dev/documentation/state_restoration_desktop/latest/
+topics:
+  - state-restoration
+
+platforms:
+  windows:
+
+environment:
+  sdk: ^3.13.4
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      windows:
+        pluginClass: StateRestorationDesktopPluginCApi

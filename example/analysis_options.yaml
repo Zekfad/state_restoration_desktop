@@ -1,0 +1,6 @@
+include: package:zekfad_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - windows/**
